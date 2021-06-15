@@ -23,17 +23,5 @@ struct App {
             }
         }
         RunLoop.main.run(until: Date.distantFuture)
-//        do {
-//            let revengeOfSith: SWAPIResponse<Film> = try await fetchAPI(url: Film.url(id: "6"))
-//            print("📗 Resp: \(revengeOfSith.response)")
-//
-//            let urlsFetch = Array(revengeOfSith.response.characterURLs.prefix(upTo: 5))
-//            let revengeOfSithCharacters: [SWAPIResponse<People>] = try await fetchAPIGroup(urls: urlsFetch)
-//            print("📗 Resp: \(revengeOfSithCharacters)")
-//
-//        } catch  {
-//            print("📕 \(error.localizedDescription)")
-//        }
-//
     }
 }
